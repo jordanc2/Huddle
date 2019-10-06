@@ -163,14 +163,14 @@ html {
 }
 html,
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 h1,
 h2,
 h3,
 h4,
 h5 {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Poppins', cursive;
 }
 h1 {
   font-size: 4rem;
@@ -205,31 +205,72 @@ img {
   display: flex;
   justify-content: space-between;
   width: 90%;
+  margin: auto;
+}
+#main .navigation #logo-primary {
+  height: 3vh;
+  margin-top: 2%;
 }
 #main .navigation .nav-btn {
+  width: 10%;
   display: block;
   background-color: hsl(193, 100%, 96%);
   margin: 0 10px 20px;
   cursor: pointer;
-  height: 45px;
-  font-size: 2rem;
-  border-radius: 10px;
+  height: 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 2%;
+  border-radius: 45px;
   color: hsl(192, 100%, 9%);
 }
 #hero {
   display: flex;
   justify-content: space-between;
-  width: 90%;
+  width: 95%;
+  margin: auto;
+}
+#hero .cta-text {
+  width: 36%;
+}
+#hero .cta {
+  width: 50%;
+  display: block;
+  background-color: hsl(322, 100%, 66%);
+  margin: 0 10px 20px;
+  cursor: pointer;
+  height: 40px;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 2%;
+  border-radius: 45px;
+  color: hsl(193, 100%, 96%);
 }
 .mockups {
   width: 44%;
 }
 .cta-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 44%;
+}
+article {
+  width: 85%;
+  margin: 0 auto;
 }
 article div {
   display: flex;
-  width: 90%;
+  justify-content: space-between;
+}
+article div .taglines {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 44%;
+}
+article div .boxes {
+  width: 40%;
 }
 article div:nth-child(2) {
   flex-direction: row-reverse;
