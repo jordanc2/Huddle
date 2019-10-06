@@ -1,3 +1,32 @@
+/*
+# Front-end Style Guide
+
+
+
+## Typography
+
+### Body Copy
+
+- Font size: 18px
+
+### Headings
+
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 600
+
+### Body, Call-to-actions
+
+- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+- Weights: 400, 700
+
+## Icons
+
+For the social icons, you can use a font icon library. Some suggestions can be found below:
+
+- [Font Awesome](https://fontawesome.com/)
+- [IcoMoon](https://icomoon.io/)
+- [Ionicons](https://ionicons.com/)
+*/
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -125,4 +154,83 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Indie Flower', cursive;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3.2rem;
+  padding-bottom: 10px;
+}
+h4 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+p {
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+#main {
+  background-image: url("/images/bg-hero-desktop.svg");
+  width: 100%;
+}
+#main .navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+#main .navigation .nav-btn {
+  display: block;
+  background-color: hsl(193, 100%, 96%);
+  margin: 0 10px 20px;
+  cursor: pointer;
+  height: 45px;
+  font-size: 2rem;
+  border-radius: 10px;
+  color: hsl(192, 100%, 9%);
+}
+#hero {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+.mockups {
+  width: 44%;
+}
+.cta-text {
+  width: 44%;
+}
+article div {
+  display: flex;
+  width: 90%;
+}
+article div:nth-child(2) {
+  flex-direction: row-reverse;
 }
