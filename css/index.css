@@ -199,7 +199,9 @@ img {
 }
 #main {
   background-image: url("/images/bg-hero-desktop.svg");
+  background-color: hsl(193, 100%, 96%);
   width: 100%;
+  height: 80vh;
 }
 #main .navigation {
   display: flex;
@@ -214,7 +216,7 @@ img {
 #main .navigation .nav-btn {
   width: 10%;
   display: block;
-  background-color: hsl(193, 100%, 96%);
+  background-color: white;
   margin: 0 10px 20px;
   cursor: pointer;
   height: 30px;
@@ -258,6 +260,9 @@ img {
 article {
   width: 85%;
   margin: 0 auto;
+}
+article .body-content {
+  border: 1px solid hsl(208, 11%, 55%);
 }
 article div {
   display: flex;
