@@ -1,30 +1,59 @@
 #main {
-    background-image: url("/images/bg-hero-desktop.svg");
-    width: 100%;
-    .navigation {
-        display: flex;
-        justify-content: space-between;
-        width: 90%;
-        .nav-btn {
-            .custom-btn(@button-bg, @button-text)
-        }
-    }
-}
-#hero {
+  background-image: url("/images/bg-hero-desktop.svg");
+  width: 100%;
+  .navigation {
     display: flex;
     justify-content: space-between;
     width: 90%;
+    margin: auto;
+    #logo-primary {
+      height: 3vh;
+      margin-top: 2%;
+    }
+    .nav-btn {
+      .custom-btn(@button-bg, @button-text);
+    }
+  }
+}
+#hero {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+  .cta-text {
+    width: 36%;
+  }
+  .cta {
+    .cta-btn(@cta-btn-bg, @cta-btn-text);
+  }
 }
 .mockups {
-    width: 44%;
+  width: 44%;
 }
 .cta-text {
-    width: 44%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 44%;
 }
-article div{
+article {
+  width: 85%;
+  margin: 0 auto;
+}
+article div {
+  display: flex;
+  justify-content: space-between;
+  // width: 90%;
+  .taglines {
     display: flex;
-    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    width: 44%;
+  }
+  .boxes {
+    width: 40%;
+  }
 }
 article div:nth-child(2) {
-    flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
